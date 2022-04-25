@@ -1,0 +1,113 @@
+[
+    {
+      "description": "small tasks",
+      "batch_size": 100,
+      "resource_range": [
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        }
+      ],
+      "duration_range": {
+        "lowerLimit": 1,
+        "upperLimit": 3
+      }
+    },
+    {
+      "description": "small tasks with skewed resource",
+      "batch_size": 100,
+      "resource_range": [
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        }
+      ],
+      "duration_range": {
+        "lowerLimit": 1,
+        "upperLimit": 3
+      }
+    },
+    {
+      "description": "small tasks with skewed resource",
+      "batch_size": 100,
+      "resource_range": [
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        }
+      ],
+      "duration_range": {
+        "lowerLimit": 1,
+        "upperLimit": 3
+      }
+    },
+    {
+      "description": "small tasks with skewed resource",
+      "batch_size": 100,
+      "resource_range": [
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 1,
+          "upperLimit": 3
+        },
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        }
+      ],
+      "duration_range": {
+        "lowerLimit": 1,
+        "upperLimit": 3
+      }
+    },
+    {
+      "description": "large tasks",
+      "batch_size": 100,
+      "resource_range": [
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        },
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        },
+        {
+          "lowerLimit": 6,
+          "upperLimit": 8
+        }
+      ],
+      "duration_range": {
+        "lowerLimit": 6,
+        "upperLimit": 8
+      }
+    }
+  ]
+  
